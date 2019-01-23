@@ -50,27 +50,29 @@ h1, .subhead {
 }
 
 .subhead {
+    color: #00C2FF;
     font-size: 1.1em;
 }
 
 .blue-container {
     width: 100%;
-    background: #00c2ff;
+    background: #0060B4;
     color: white;
     margin-top: 15%;
     padding: 4em 0 2em;
-    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
     transform: skewY(-2deg);
 }
+
 
 .blue-container:before {
     content: "";
     height: 40px;
     width: 40px;
-    background-color: #00c2ff;
+    background-color: #0060B4;
     position: absolute;
     top: -39px;
-    right: 0;
+    left: 0;
     z-index: -2;
 }
 
@@ -81,7 +83,7 @@ h1, .subhead {
     background-color: white;
     top: -80px;
     position: absolute;
-    right: 0;
+    left: 0;
     border-radius: 50%;
     z-index: -1;
 }
@@ -123,7 +125,7 @@ figure {
 
 figcaption {
     font-weight: bold;
-    color: #00c2ff;
+    color: #00C2FF;
 }
 
 h2 {
@@ -131,7 +133,7 @@ h2 {
 }
 
 .cta {
-    background: #00cc80;
+    background: #0060B4;
     width: calc(100% - 1em);
     display: block;
     color: white;
@@ -146,10 +148,10 @@ h2 {
 
 .footer-container {
     width: 100%;
-    background: #3d444a;
+    background: #000000;
     color: white;
     padding: 3em 0;
-    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
     transform: skewY(2deg);
 }
 
@@ -161,10 +163,10 @@ h2 {
     content: "";
     width: 40px;
     height: 40px;
-    background-color: #3d3d3d;
+    background-color: #000000;
     position: absolute;
     top: -39px;
-    left: 0;
+    right: 0;
     z-index: -2;
 }
 
@@ -175,7 +177,7 @@ h2 {
     background-color: white;
     position: absolute;
     top: -80px;
-    left: 0;
+    right: 0;
     z-index: -1;
     border-radius: 50%;
 }
@@ -189,7 +191,7 @@ ul.footer-links li {
 }
 
 ul.footer-links li a {
-    color: #9d9d9d;
+    color: #fff;
     font-size: .8em;
 }
 
@@ -199,7 +201,7 @@ nav ul {
     top: 0;
     right: 0;
     text-align: left;
-    background: rgb(36,41,44);
+    background: #0060B4;
     height: 100%;
     z-index: 7;
     padding-top: 3em;
@@ -210,12 +212,11 @@ nav ul li a {
      text-decoration: none;
      display: block;
      width: 100%;
-     padding: 1em 2em ;
-     background-color: rgb(49,55,59);
+     padding: 1em 2em ; 
 }
 
 nav ul li a:hover {
-    background-color: rgb(65, 73, 78);
+    background-color: #00c2ff;
 }
 
 .exit-btn {
