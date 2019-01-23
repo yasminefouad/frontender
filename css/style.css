@@ -61,9 +61,8 @@ h1, .subhead {
     margin-top: 15%;
     padding: 4em 0 2em;
     border-top-right-radius: 40px;
-    transform: skewY(-2deg);
+    transform: skewY(-.5deg);
 }
-
 
 .blue-container:before {
     content: "";
@@ -89,7 +88,7 @@ h1, .subhead {
 }
 
 .blue-container ul {
-    transform: skewY(2deg);
+    transform: skewY(.5deg);
 }
 
 .blue-container ul li {
@@ -152,11 +151,11 @@ h2 {
     color: white;
     padding: 3em 0;
     border-top-left-radius: 40px;
-    transform: skewY(2deg);
+    transform: skewY(.5deg);
 }
 
 .footer-container .container {
-    transform: skewY(-2deg);
+    transform: skewY(-.5deg);
 }
 
 .footer-container:before {
